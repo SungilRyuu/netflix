@@ -25,7 +25,7 @@ const Home = ({ type }) => {
           }
         );
         // console.log(res.data);
-        setLists(res);
+        setLists(res.data);
       } catch (err) {
         console.log(err);
       }
@@ -37,7 +37,7 @@ const Home = ({ type }) => {
     <div className="home">
       <Navbar />
       <Featured type={type} />
-      {lists && lists.data.map((list) => <List list={list} />)}
+      {lists && lists.map((list) => <List list={list} />)}
     </div>
   );
 };

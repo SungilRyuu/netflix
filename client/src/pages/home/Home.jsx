@@ -25,20 +25,19 @@ const Home = ({ type }) => {
           }
         );
         // console.log(res.data);
-        setLists(res.data);
+        setLists(res);
       } catch (err) {
         console.log(err);
       }
     };
+
     getRandomLists();
   }, [type, genre]);
   return (
     <div className="home">
       <Navbar />
       <Featured type={type} />
-      {lists.map((list) => (
-        <List list={list} />
-      ))}
+      {lists && lists.data.map((list) => <List list={list} />)}
     </div>
   );
 };

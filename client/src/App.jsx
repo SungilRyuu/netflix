@@ -3,12 +3,12 @@ import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import Watch from "./pages/watch/Watch";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 
 const App = () => {
   const user = true;
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route
           path="/"
@@ -30,7 +30,7 @@ const App = () => {
           </>
         )}
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 

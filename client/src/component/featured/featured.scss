@@ -43,6 +43,10 @@
     }
     .desc {
       margin: 20px 0;
+
+      @include mobile {
+        width: 60vw;
+      }
     }
 
     .buttons {

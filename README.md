@@ -1,7 +1,11 @@
 # netflix
-
 netflix clone with Lama Dev(youtube)
 MERN을 이용하여 넷플릭스 사이트 클론 코딩을 하였습니다.
+<a href="https://youtu.be/FzWG8jiw4XM">유튜브 링크 1</a>
+<a href="https://youtu.be/tsNswx0nRKM">유튜브 링크 2</a>
+<a href="https://sungilryuu.tistory.com/category/Netflix%20Clone%20Lama%2022.06.26">tistory 정리</a>
+
+
 
 ## 회원가입 페이지
 
